@@ -1,6 +1,6 @@
-﻿namespace 杜德平的数据库编程
+﻿namespace Crall
 {
-    partial class Form1
+    partial class MainFrm
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -146,11 +146,11 @@
             // 
             this.labFoot.AutoSize = true;
             this.labFoot.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labFoot.Location = new System.Drawing.Point(174, 362);
+            this.labFoot.Location = new System.Drawing.Point(285, 364);
             this.labFoot.Name = "labFoot";
-            this.labFoot.Size = new System.Drawing.Size(167, 12);
+            this.labFoot.Size = new System.Drawing.Size(126, 12);
             this.labFoot.TabIndex = 12;
-            this.labFoot.Text = "  模拟随机点名小程序 杜德平";
+            this.labFoot.Text = " © 版权所有 codeping";
             // 
             // comBoxSelectDepart
             // 
@@ -226,7 +226,7 @@
             this.labdeal.TabIndex = 23;
             this.labdeal.Text = "正在处理......";
             // 
-            // Form1
+            // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -249,8 +249,8 @@
             this.Controls.Add(this.butView);
             this.Controls.Add(this.labName);
             this.Controls.Add(this.labStuId);
-            this.Name = "Form1";
-            this.Text = "杜德平的数据库编程";
+            this.Name = "MainFrm";
+            this.Text = "数据库课堂点名";
             ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

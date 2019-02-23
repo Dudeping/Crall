@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace 杜德平的数据库编程.Properties {
+namespace Crall.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

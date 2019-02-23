@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace 杜德平的数据库编程
+namespace Crall
 {
     static class Program
     {
@@ -13,7 +13,7 @@ namespace 杜德平的数据库编程
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(Form1.createForm1());
+            Application.Run(MainFrm.createForm1());
         }
     }
 }

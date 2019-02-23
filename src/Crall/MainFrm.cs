@@ -14,9 +14,9 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 #endregion
 
-namespace 杜德平的数据库编程
+namespace Crall
 {
-    public partial class Form1 : Form
+    public partial class MainFrm : Form
     {
         #region 定义一些共有字段，方便数据传输和共用
         //学号
@@ -42,12 +42,12 @@ namespace 杜德平的数据库编程
         //链接字符串
         private string constr = "Data Source=10.2.130.244; Initial Catalog=xjgl; Persist Security Info=True; User ID=xuesheng;Password=123";
         #endregion
-        private static Form1 _form1;
+        private static MainFrm _form1;
         /// <summary>
         /// 初始化窗口
         /// 并初始化一个基本数据
         /// </summary>
-        private Form1()
+        private MainFrm()
         {
             InitializeComponent();
 
@@ -90,10 +90,10 @@ namespace 杜德平的数据库编程
         /// </summary>
         /// <returns></returns>
         //TODO: 单例
-        public static Form1 createForm1()
+        public static MainFrm createForm1()
         {
             if (_form1 == null)
-                _form1 = new Form1();
+                _form1 = new MainFrm();
             return _form1;
         }
 
